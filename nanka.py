@@ -26,11 +26,11 @@ while(zirai_x != zibun_x ) or (zirai_y != zibun_y) :
  elif yuku == "a":
   zibun_x = zibun_x + 1
  elif yuku == "q":
-  zibun_y = (zibun_y - 1)+(zibun_x + 1)
+  zibun_y,zibun_x = (zibun_y - 1)+(zibun_x + 1)
  elif yuku == "e":
-  zibun_y = (zibun_y - 1)+(zibun_x - 1)
+  zibun_y,zibun_x = (zibun_y - 1)+(zibun_x - 1)
  elif yuku == "z":
-  zibun_x = (zibun_y - 1)+(zibun_x + 1)
+  zibun_x,zibun_y = (zibun_y - 1)+(zibun_x + 1)
  elif yuku == "c":
-  zibun_x = (zibun_y + 1)+(zibun_x + 1)
+  zibun_x,zibun_y = (zibun_y + 1)+(zibun_x + 1)
 print("地雷の破壊に成功") 
